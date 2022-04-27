@@ -1,0 +1,83 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#0f1123;
+}
+
+li, button, a {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+header
+{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10%;
+}
+.nav-link
+{
+    list-style: none;
+}
+
+.nav-link li {
+    display:inline-block;
+    padding:0 20px;
+}
+.nav-link li a {
+    transition:all 0.3s ease 0s;
+}
+.nav-link li a:hover {
+    color:rgb(255, 0, 55);
+}
+button{
+    padding:9px 25px;
+    background-color:rgba(224, 15, 15, 0.877);
+    border:none;
+    cursor: pointer;
+    transition:all 0.3s ease 0s;
+    border-radius: 50px;
+    margin-left: 15px;
+
+}
+
+button:hover
+{
+    background-color:rgba(219, 91, 91, 0.877);
+}
+
+.nav-link2
+{
+    list-style: none;
+}
+
+.nav-link2 li {
+    display:inline-block;
+    padding:0 20px;
+}
+.nav-link2 li a {
+    transition:all 0.3s ease 0s;
+}
+.nav-link2 li a:hover {
+    color:rgb(255, 0, 55);
+}
+.nav-link2
+{
+    margin-right: auto;
+}
+
+.nav-link2 a
+{
+    font-weight: bold;
+}
+
+.logo
+{ width: 50px; height: 50px;
+    display: inline-block;
+    
+}
